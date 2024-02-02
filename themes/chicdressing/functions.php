@@ -15,6 +15,7 @@ function chicdressing_remove_parent_theme_gfonts_scripts() {
     wp_dequeue_style( 'ashe-rokkitt-font' );
 
 }
+
 add_action( 'wp_enqueue_scripts', 'chicdressing_remove_parent_theme_gfonts_scripts', 999 );
 
  
