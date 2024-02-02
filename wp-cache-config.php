@@ -8,7 +8,7 @@ See wp-cache.php for author details.
 $wp_cache_home_path = '/';
 $wp_cache_slash_check = 1;
 $cache_page_secret = '1ddba7823a5696d0d789614bf6b81e2a';
-$cache_time_interval = 600;
+$cache_time_interval = '300';
 if ( ! defined('WPCACHEHOME') )
 	define( 'WPCACHEHOME', WP_CONTENT_DIR . "/plugins/wp-super-cache/" );
 
@@ -90,7 +90,7 @@ $wp_supercache_304 = 0;
 $wp_cache_front_page_checks = 0;
 $wp_cache_disable_utf8 = 0;
 $wp_cache_no_cache_for_get = 0;
-$cache_scheduled_time = "00:00";
+$cache_scheduled_time = '00:00';
 $wp_cache_preload_interval = 600;
 $cache_schedule_type = 'interval';
 $wp_cache_preload_posts = 0;
@@ -99,7 +99,7 @@ $wp_cache_preload_taxonomies = 0;
 $wp_cache_preload_email_me = 0;
 $wp_cache_preload_email_volume = 'none';
 $wp_cache_mobile_prefixes = '';
-$cached_direct_pages = array();
+$cached_direct_pages = array(  );
 $wpsc_served_header = false;
 $cache_gc_email_me = 0;
 $wpsc_save_headers = 0;

@@ -19,7 +19,7 @@
 				<?php // SEO Hidden Title
 
 				if ( true === ashe_options( 'title_tagline_seo_title' ) ) {
-					echo ( is_home() || is_front_page() || is_category() || is_search() ) ? '<h1 style="display: none;">'.  get_bloginfo( 'title' ) .'</h1>' : '';
+					echo ( is_home() || is_front_page() || is_category() || is_search() ) ? '<h2 style="display: none;">'.  get_bloginfo( 'title' ) .'</h2>' : '';
 				}
 
 				?>
